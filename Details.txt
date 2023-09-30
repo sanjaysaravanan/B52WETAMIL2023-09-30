@@ -1,0 +1,84 @@
+
+Topics:
+
+  fixing decimal places:
+    <float-number>.toFixed(2);
+
+  find GCD:
+    Greatest Common Divisor
+      28 56
+      1 to 28
+
+  Fibonacci Series:
+
+  Object DataType: key value pairs
+
+  Mapping Techniques:
+    to keep a record of some key value pairs
+
+    removing duplicates
+    frequency of characters
+
+  Algorithms:
+    1. Searching
+    2. Largest of an array
+    3. Smallest of an array
+    5. Frequency of char, removal of duplicates, removal of specific characters
+
+    isNaN() --> return false if the string is Number, else true
+
+Questions:
+  1. Given 2 numbers N and K followed by N elements,print the number of repetition of K otherwise print '-1' if the element not found.
+      Sample Testcase :
+      INPUT
+      6 2
+      1 2 3 5 7 8
+      OUTPUT
+      0
+
+      N=6, K=2
+      arr=[1,2,3,5,7,8]
+
+      userInput = ['6 2', '1 2 3 5 7 8'];
+
+  2. The area of an equilateral triangle is ¼(√3a2) where "a" represents a side of the triangle. You are provided with the side "a". Find the area of the equilateral triangle.
+
+  ((Math.sqrt(3) * (a * a)) / 4).toFixed(2)
+
+  3. You are provided with a number "N", Find the Nth term of the series: 1, 4, 9, 16, 25, 36, 49, 64, 81, ....... 
+    I/P: 11
+    O/P: 
+  
+  4. You are given the coefficients of a quadratic equation in order A, B & C.
+    Where A is the coefficient of X2,  B is the coefficient of X and C is the constant term in the most simplified form.
+    Example: For  X2 + 5X + 6 = 0, you are given the input as: 1 5 6.
+    Write a program to find all of the roots of the quadratic.
+    Note: The output should be up to 2nd decimal place (round off if needed) and in case of a recurring decimal use braces i.e. for eg: 0.33333..... => 0.33.
+    Note: Use Shri Dharacharya's Method to solve i.e. X = {-b + √(b² - 4ac) } / 2a & {-b-√(b² -4ac)} / 2a
+
+    (-b + Math.sqrt(((b*b) - (4 * a * c))))/ ( 2 * a )
+    (-b - Math.sqrt(((b*b) - (4 * a * c))))/ ( 2 * a )
+  
+    5. You are given a number with duplicate digits your task is to remove the immediate duplicate digits and print the result
+
+      Input Description:
+      You are given a long string of digits
+
+      Output Description:
+      Print the desired result print -1 if result length is 0
+
+      Sample Input :
+      1331
+      Sample Output :
+      11
+  
+  6. I/P: [1,2,3,4,5,6,7,8,9,1,1]
+    O/P: 1 ( Most repeating number )
+
+Next Session:
+  find LCM:
+  4. Sorting
+  
+
+
+
